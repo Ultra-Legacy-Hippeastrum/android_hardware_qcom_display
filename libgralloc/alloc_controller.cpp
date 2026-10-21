@@ -39,13 +39,7 @@
 #include "mdp_version.h"
 #include <qdMetaData.h>
 
-#ifdef VENUS_COLOR_FORMAT
 #include <media/msm_media_info.h>
-#else
-#define VENUS_Y_STRIDE(args...) 0
-#define VENUS_Y_SCANLINES(args...) 0
-#define VENUS_BUFFER_SIZE(args...) 0
-#endif
 
 #define ASTC_BLOCK_SIZE 16
 
